@@ -6,34 +6,27 @@ test commiter# delegation-registry
 
 |Mainnet Chain|Address|
 |---|---|
-|Ethereum|[0x00000000000076A84feF008CDAbe6409d2FE638B](https://etherscan.io/address/0x00000000000076a84fef008cdabe6409d2fe638b)|
-|Polygon|[0x00000000000076A84feF008CDAbe6409d2FE638B](https://polygonscan.com/address/0x00000000000076a84fef008cdabe6409d2fe638b)|
-|Optimism|[0x00000000000076A84feF008CDAbe6409d2FE638B](https://optimistic.etherscan.io/address/0x00000000000076a84fef008cdabe6409d2fe638b)|
-|Celo|[0x00000000000076A84feF008CDAbe6409d2FE638B](https://explorer.celo.org/mainnet/address/0x00000000000076A84feF008CDAbe6409d2FE638B)|
-|Avalanche|[0x00000000000076A84feF008CDAbe6409d2FE638B](https://snowtrace.io/address/0x00000000000076A84feF008CDAbe6409d2FE638B)|
-|BSC|[0x00000000000076A84feF008CDAbe6409d2FE638B](https://bscscan.com/address/0x00000000000076a84fef008cdabe6409d2fe638b)|
-|Gnosis|[0x00000000000076A84feF008CDAbe6409d2FE638B](https://gnosisscan.io/address/0x00000000000076a84fef008cdabe6409d2fe638b)|
-|Fantom|[0x00000000000076A84feF008CDAbe6409d2FE638B](https://ftmscan.com/address/0x00000000000076a84fef008cdabe6409d2fe638b)|
-|Arbitrum|[0x00000000000076A84feF008CDAbe6409d2FE638B](https://arbiscan.io/address/0x00000000000076a84fef008cdabe6409d2fe638b)|
-|Arbitrum (Nova)|[0x00000000000076A84feF008CDAbe6409d2FE638B](https://nova.arbiscan.io/address/0x00000000000076a84fef008cdabe6409d2fe638b)|
+|Ethereum|[0x00000000000000447e69651d841bd8d104bed493](https://etherscan.io/address/0x00000000000000447e69651d841bd8d104bed493)|
+|Polygon|[0x00000000000000447e69651d841bd8d104bed493](https://polygonscan.com/address/0x00000000000000447e69651d841bd8d104bed493)|
+|Optimism|[0x00000000000000447e69651d841bd8d104bed493](https://optimistic.etherscan.io/address/0x00000000000000447e69651d841bd8d104bed493)|
+|Celo|[0x00000000000000447e69651d841bd8d104bed493](https://explorer.celo.org/mainnet/address/0x00000000000000447e69651d841bd8d104bed493)|
+|Avalanche|[0x00000000000000447e69651d841bd8d104bed493](https://snowtrace.io/address/0x00000000000000447e69651d841bd8d104bed493)|
+|BSC|[0x00000000000000447e69651d841bd8d104bed493](https://bscscan.com/address/0x00000000000000447e69651d841bd8d104bed493)|
+|Gnosis|[0x00000000000000447e69651d841bd8d104bed493](https://gnosisscan.io/address/0x00000000000000447e69651d841bd8d104bed493)|
+|Fantom|[0x00000000000000447e69651d841bd8d104bed493](https://ftmscan.com/address/0x00000000000000447e69651d841bd8d104bed493)|
+|Arbitrum|[0x00000000000000447e69651d841bd8d104bed493](https://arbiscan.io/address/0x00000000000000447e69651d841bd8d104bed493)|
+|Arbitrum (Nova)|[0x00000000000000447e69651d841bd8d104bed493](https://nova.arbiscan.io/address/0x00000000000000447e69651d841bd8d104bed493)|
 
 |Testnet Chain|Address|
 |---|---|
-|Ethereum (Goerli)|[0x00000000000076A84feF008CDAbe6409d2FE638B](https://goerli.etherscan.io/address/0x00000000000076a84fef008cdabe6409d2fe638b)|
-|Polygon (Mumbai)|[0x00000000000076A84feF008CDAbe6409d2FE638B](https://mumbai.polygonscan.com/address/0x00000000000076a84fef008cdabe6409d2fe638b)|
-|Optimism (Goerli)|[0x00000000000076A84feF008CDAbe6409d2FE638B](https://goerli-optimism.etherscan.io/address/0x00000000000076a84fef008cdabe6409d2fe638b)|
-|Celo (Alfajores)|[0x00000000000076A84feF008CDAbe6409d2FE638B](https://alfajores-forno.celo-testnet.org/address/0x00000000000076a84fef008cdabe6409d2fe638b)|
-|Avalanche (Fuji)|[0x00000000000076A84feF008CDAbe6409d2FE638B](https://testnet.snowtrace.io/address/0x00000000000076a84fef008cdabe6409d2fe638b)|
-|BSC (testnet)|[0x00000000000076A84feF008CDAbe6409d2FE638B](https://testnet.bscscan.com/address/0x00000000000076a84fef008cdabe6409d2fe638b)|
-|Gnosis (Chiado)|[0x00000000000076A84feF008CDAbe6409d2FE638B](https://blockscout.chiadochain.net/address/0x00000000000076A84feF008CDAbe6409d2FE638B)|
-|Fantom (testnet)|[0x00000000000076A84feF008CDAbe6409d2FE638B](https://testnet.ftmscan.com/address/0x00000000000076a84fef008cdabe6409d2fe638b)|
+|Ethereum (Goerli)|[0x00000000000000447e69651d841bd8d104bed493](https://goerli.etherscan.io/address/0x00000000000000447e69651d841bd8d104bed493)|
 
 
-If you'd like to get the DelegationRegistry on another EVM chain, anyone in the community can deploy to the same address! Simply run the script in [Deploy.s.sol](script/Deploy.s.sol) with the specified salt. The CREATE2 factory must be deployed at `0x0000000000FFe8B47B3e2130213B802212439497`, but this factory exists on 19 separate chains so shouldn't be an issue. If you've run a community deployment, open a PR adding the link to the above table.
+If you'd like to get the DelegateRegistry on another EVM chain, anyone in the community can deploy to the same address! Simply run the script in [Deploy.s.sol](script/Deploy.s.sol) with the specified salt. The CREATE2 factory must be deployed at `0x0000000000FFe8B47B3e2130213B802212439497`, but this factory exists on 19 separate chains so shouldn't be an issue. If you've run a community deployment, open a PR adding the link to the above table.
 
 ## Overview
 
-Welcome! If you're a programmer, view [the specific registry code here](src/DelegationRegistry.sol). If you want to discuss specific open questions, click on the "Issues" tab to leave a comment. If you're interested in integrating this standard into your token project or marketplace, we're in the process of creating example templates - or reach out directly via a [Twitter DM](https://twitter.com/0xfoobar).
+Welcome! If you're a programmer, view [the specific registry code here](src/DelegateRegistry.sol). If you want to discuss specific open questions, click on the "Issues" tab to leave a comment. If you're interested in integrating this standard into your token project or marketplace, we're in the process of creating example templates - or reach out directly via a [Twitter DM](https://twitter.com/0xfoobar).
 
 We have an exciting group of initial people circling around this standard, including foobar (hi!), punk6529 (open metaverse), loopify (loopiverse), andy8052 (fractional), purplehat (artblocks), emiliano (nftrentals), arran (proof), james (collabland), john (gnosis safe), wwhchung (manifoldxyz) tally labs and many more. The dream is to move from a fragmented world where no individual deployment gets serious use to a global registry where users can register their vault once and use it safely for a variety of airdrops & other claims! Please reach out if interested in helping make this a reality on either the technical, social, or integration side.
 
@@ -53,7 +46,7 @@ While a technical solution that "just works" may appear easy to code up, there's
 ## What features does this include?
 
 ### Fully Onchain, No EIP 712 signatures
-Why? This is critical for smart contract composability, which cannot produce a private key signature. And while we could have two separate paths for delegation setup, one with smart contract calls and one with signature calls, this fragments adoption and developer use. Not to mention that allowing offchain signatures encourages people to interact with their vault and hotwallet in rapid succession, and accidental signatures can float around offchain with no easy way to revoke as we saw with the OpenSea "old ape offer" attack vector. More thoughts in [this tweet](https://twitter.com/0xfoobar/status/1557035539752181762).
+Why? This is critical for smart contract composability, which cannot produce a private key signature. And while we could have two separate paths for delegation setup, one with smart contract calls and one with signature calls, this fragments adoption and developer use. Not to mention that allowing offchain signatures encourages people to interact with their vault and hotwallet in rapid succession, and accidental signatures can float around offchain with no easy way to revoke as we saw with the OpenSea "old ape offer" attack vector.
 
 ### Fully Immutable, No Admin Powers
 Why? Because governance is an attack vector. There should be none of it in a neutral trustless delegation standard. The standard is designed to be as flexible as possible, but upgrades are always possible by deploying a new registry with different functionality.
@@ -77,13 +70,13 @@ wenew's approach via [HotWalletProxy](https://github.com/wenewlabs/public/blob/m
 
 ## How do I use it?
 
-Check out the [IDelegationRegistry.sol](src/IDelegationRegistry.sol) file. This is the interface to interact with, and contains the following methods:
+Check out the [IDelegateRegistry.sol](src/IDelegateRegistry.sol) file. This is the interface to interact with, and contains the following methods:
 
 ```code
 /// WRITE ///
-function delegateForAll(address delegate, bool value) external;
-function delegateForContract(address delegate, address contract_, bool value) external;
-function delegateForToken(address delegate, address contract_, uint256 tokenId, bool value) external;
+function delegateAll(address delegate, bool value) external;
+function delegateContract(address delegate, address contract_, bool value) external;
+function delegateERC721(address delegate, address contract_, uint256 tokenId, bool value) external;
 function revokeAllDelegates() external;
 function revokeDelegate(address delegate) external;
 function revokeSelf(address vault) external;
@@ -94,7 +87,7 @@ function getDelegatesForContract(address vault, address contract_) external view
 function getDelegatesForToken(address vault, address contract_, uint256 tokenId) external view returns (address[] memory);
 function checkDelegateForAll(address delegate, address vault) external view returns (bool);
 function checkDelegateForContract(address delegate, address vault, address contract_) external view returns (bool);
-function checkDelegateForToken(address delegate, address vault, address contract_, uint256 tokenId) external view returns (bool);
+function checkDelegateForERC721(address delegate, address vault, address contract_, uint256 tokenId) external view returns (bool);
 ```
 
-As an NFT creator, the important ones to pay attention to are `getDelegationsByDelegate()`, which you can use on the website frontend to enumerate which vaults a specific hotwallet is delegated to act on behalf of, and `checkDelegateForToken()`, which can be called in your smart contract to ensure a hotwallet is acting on behalf of the proper vaults.
+As an NFT creator, the important ones to pay attention to are `getDelegationsByDelegate()`, which you can use on the website frontend to enumerate which vaults a specific hotwallet is delegated to act on behalf of, and `checkDelegateForERC721()`, which can be called in your smart contract to ensure a hotwallet is acting on behalf of the proper vaults.
